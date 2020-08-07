@@ -78,4 +78,4 @@ if result[0][0] == 1:
 
 else:
     prediction = 'benign'
-    print("The image is of a ",prediction) 
+    print("The image is of a ",prediction)  
