@@ -1,7 +1,3 @@
-#Convolutional Neural Network 
-
-#Part 1-Building the CNN
-
 #Importing the Keras libraries and packages
 import tensorflow.keras
 from tensorflow.keras.models import Sequential
@@ -62,7 +58,7 @@ classifier.fit_generator(
 from keras.preprocessing import image
 import numpy as np
 
-# Replace codo_2.jpg by your image path
+#Classify an individual image
 
 test_image = image.load_img('skin_cancer/malignant_mole.jpg', target_size = ( 64, 64))
 
